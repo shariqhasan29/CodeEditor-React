@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.app{
+    width: 100vw;
+    min-height: 100vh;    
+    transition: .5s;
+}
+.app.dark{
+    background-color: black;
+    color: orange;
+
+}

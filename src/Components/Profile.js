@@ -14,7 +14,12 @@ const Profile = () => {
         </div>
         <div className='profilepic'>
 
-          <img src={profilepic} alt="" />
+          <div className='image'>
+            <img src={profilepic} alt="" />
+            <h2>Please don't touch me <br /> <span></span></h2>
+          </div>
+
+            
 
         </div>
         
