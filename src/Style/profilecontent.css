@@ -1,0 +1,35 @@
+.main-content{
+    position: relative;
+    top: 100px;
+    left: -100px;
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    font-size: 2rem;
+    font-stretch: extra-expanded;
+}
+
+.description{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.527);
+    line-height: 3rem;
+
+}
+.link-heading{
+    font-size: .8rem;
+    color: rgba(243, 9, 9, 0.795);
+    line-height: 2rem;
+}
+.email{
+    size: 5rem;
+}
+.work{
+    display: flex;
+
+}
+.box{
+    margin-top: 20px;
+    border-left: 1px dotted black;
+    padding-left: 60px;
+}

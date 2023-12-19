@@ -1,0 +1,18 @@
+.content{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.chead ul{
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+
+
+}
+.chead ul li{
+    
+}
