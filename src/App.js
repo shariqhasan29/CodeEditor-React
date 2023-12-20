@@ -1,4 +1,4 @@
-import './App.css';
+import './Style/App.css';
 import Profile from './Components/Profile';
 import ProfileContent from './Components/ProfileContent';
 import NavBar from './Components/Navbar';

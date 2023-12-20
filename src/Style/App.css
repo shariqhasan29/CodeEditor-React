@@ -1,0 +1,9 @@
+.app{
+       
+    transition: .5s;
+}
+.app.dark{
+    background-color: black;
+    color: orange;
+
+}

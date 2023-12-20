@@ -3,13 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 7%;
+    padding: 10px 5%;
     background-color: black;
-    color: white;
+    color: #3CD6EB;
+    
 }
 .logo{
-    width: 160px;
+    width: 250px;
+    height: 50px;
     cursor: pointer;
+
 }
 
 ul{
@@ -29,28 +32,8 @@ ul li{
     width: 50px;
     cursor: pointer;
     margin-left: 40px;
-
-}
-
-/* .navbar{
-    display: flex;
-    justify-content: space-around;
-    background: rgb(1,6,31);
-    background: radial-gradient(circle, rgba(1,6,31,1) 39%, rgba(4,4,4,1) 69%);
-    padding: 10px;
-    
-}
-.links{
-    display: flex;
-
-}
-.links li{
-    margin-left: 30px;
-    color: #f5f5f5;
     
 
 }
-ul{
-    list-style: none;
-} */
+
 
