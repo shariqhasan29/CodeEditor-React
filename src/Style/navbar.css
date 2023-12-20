@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .navbar{
     width: 100%;
     display: flex;
@@ -5,7 +7,7 @@
     justify-content: space-between;
     padding: 10px 5%;
     background-color: black;
-    color: #3CD6EB;
+    color: rgba(255, 166, 0, 0.719);
     
 }
 .logo{
@@ -16,7 +18,7 @@
 }
 
 ul{
-    flex: 1;
+    display: flex;
     list-style: none;
     text-align: center;
 }

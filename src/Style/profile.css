@@ -41,7 +41,7 @@
     content: "";
     position: absolute;
     inset: 6px;
-    background: black;
+    background: rgba(0, 0, 0, 0.753);
     border-radius: 50%;
     z-index: 1;
 }
@@ -76,6 +76,9 @@
 }
 
 .image h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: whitesmoke;
     text-align: center;
     padding: 10px;

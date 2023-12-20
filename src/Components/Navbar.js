@@ -1,8 +1,10 @@
 import React from 'react'
 import '../Style/navbar.css'
-import logo from '../Images/logo.gif'
+// import logo from '../Images/logo.gif'
 import toogle_light from '../Images/night.png'
 import toogle_dark from '../Images/day.png'
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import LightModeSharpIcon from '@mui/icons-material/LightModeSharp';
 
 
 
@@ -15,7 +17,7 @@ const Navbar = ({theme, setTheme}) => {
 
   return (
     <div className='navbar'>
-      <img src={logo} alt="" className='logo'/>
+      {/* <img src={logo} alt="" className='logo'/> */}
 
       <ul>
         <li>About Me</li>
@@ -24,7 +26,9 @@ const Navbar = ({theme, setTheme}) => {
         <li>Comments</li>
       </ul>
 
-      <img onClick = {()=>{toogle_mode()}} src={theme === "light" ? toogle_light : toogle_dark} alt="" className='toogle-icon'/>
+      {/* <LightModeSharpIcon onClick = {()=>{toogle_mode()}} src={theme === "light" ? <LightModeSharpIcon/> : <Brightness4Icon/>} className='toogle-icon'/> */}
+
+      <img onClick = {()=>{toogle_mode()}} src={theme === "light" ? toogle_light : toogle_dark} className='toogle-icon'/>
 
 
 
