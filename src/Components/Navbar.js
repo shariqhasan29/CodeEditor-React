@@ -14,6 +14,10 @@ const Navbar = ({theme, setTheme}) => {
     theme === "light" ? setTheme('dark') : setTheme('light')
   }
 
+  if(theme){
+        
+  }
+
 
   return (
     <div className='navbar'>
@@ -26,11 +30,7 @@ const Navbar = ({theme, setTheme}) => {
         <li>Comments</li>
       </ul>
 
-      {/* <LightModeSharpIcon onClick = {()=>{toogle_mode()}} src={theme === "light" ? <LightModeSharpIcon/> : <Brightness4Icon/>} className='toogle-icon'/> */}
-
-      <img onClick = {()=>{toogle_mode()}} src={theme === "light" ? toogle_light : toogle_dark} className='toogle-icon'/>
-
-
+      {theme === "light" ? <LightModeSharpIcon onClick = {()=>{toogle_mode()}} className='toogle-icon'/> : <Brightness4Icon onClick = {()=>{toogle_mode()}} className='toogle-icon'/>}
 
     </div>
   )

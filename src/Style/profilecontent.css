@@ -24,9 +24,7 @@
     color: rgba(243, 9, 9, 0.795);
     line-height: 2rem;
 }
-.email{
-    size: 5rem;
-}
+
 .work{
     display: flex;
 
@@ -48,4 +46,9 @@ span{
     margin-left: 40px;
     font-size: 1rem;
 
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
