@@ -1,8 +1,5 @@
 import './Style/App.css';
-import Profile from './Components/Profile';
-import ProfileContent from './Components/ProfileContent';
 import NavBar from './Components/Navbar';
-import MainContent from './Components/MainContent';
 import { useState } from 'react';
 
 function App() {
@@ -11,10 +8,9 @@ function App() {
 
   return (
     <div className= {`app ${theme}`}>
+      
       <NavBar theme={theme} setTheme ={setTheme}/>
-      <Profile/>
-      <ProfileContent/>
-      <MainContent/>
+      
 
     
       
