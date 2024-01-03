@@ -1,7 +1,5 @@
 import React from 'react'
 import '../Style/profilecontent.css'
-import { Link } from '@mui/material'
-
 import Email from '../Images/gmail.png'
 import LinkedIn from '../Images/linkedin.png'
 import Whatsapp from '../Images/whatsapp.png'
@@ -41,17 +39,14 @@ const profilecontent = () => {
         <p className='link-heading'>Find me on below</p>
         <div className='media-links'>
           
-          <Link> <img src={Email} alt="" className='icons' /> </Link>
-          <Link> <img src={LinkedIn} alt="" className='icons' /> </Link>
-          <Link> <img src={Whatsapp} alt="" className='icons' /> </Link>
-          <Link> <img src={Facebook} alt="" className='icons'/> </Link>
-          <Link> <img src={Instagram} alt="" className='icons' /> </Link>
-          <Link> <img src={Github} alt="" className='icons' /> </Link>
-          <Link> <img src={Twitter} alt="" className='icons' /> </Link>
-          <Link> <img src={Website} alt="" className='icons' /> </Link>
-
-
-        
+          <a href="shariqhasan29@yahoo.com"><img src={Email} alt="" className='icons' /></a>
+          <a href="https://www.linkedin.com/in/shariq-hasan-a-a92826213/"><img src={LinkedIn} alt="" className='icons' /></a>
+          <a href="https://wa.me/qr/2ZUATSZUPISLD1"><img src={Whatsapp} alt="" className='icons' /></a>
+          <a href="https://www.facebook.com/profile.php?id=61554491686357"><img src={Facebook} alt="" className='icons'/></a>
+          <a href="https://www.instagram.com/shariq__hasan?igsh=YTQwZjQ0NmI0OA=="><img src={Instagram} alt="" className='icons' /> </a>
+          <a href="https://github.com/shariqhasan29"><img src={Github} alt="" className='icons' /></a>
+          <a href="https://twitter.com/Shariqhasan29"><img src={Twitter} alt="" className='icons' /></a>
+          <a href="#"><img src={Website} alt="" className='icons' /> </a>        
 
         </div>
       </div>

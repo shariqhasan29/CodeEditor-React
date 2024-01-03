@@ -1,8 +1,6 @@
 import React from 'react'
 import '../Style/navbar.css'
 // import logo from '../Images/logo.gif'
-import toogle_light from '../Images/night.png'
-import toogle_dark from '../Images/day.png'
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import LightModeSharpIcon from '@mui/icons-material/LightModeSharp';
 
