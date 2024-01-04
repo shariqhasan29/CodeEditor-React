@@ -1,6 +1,10 @@
+import React from 'react';
+import { useState } from 'react';
 import './Style/App.css';
 import NavBar from './Components/Navbar';
-import { useState } from 'react';
+import Body from './Components/Body';
+
+
 
 function App() {
 
@@ -10,6 +14,8 @@ function App() {
     <div className= {`app ${theme}`}>
       
       <NavBar theme={theme} setTheme ={setTheme}/>
+      <Body/>
+      
       
 
     

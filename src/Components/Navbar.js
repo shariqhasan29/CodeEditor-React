@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Style/navbar.css'
-import logo from '../Images/logo.jpeg'
+import logo from '../Images/logo.png'
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import LightModeSharpIcon from '@mui/icons-material/LightModeSharp';
 

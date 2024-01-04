@@ -2,17 +2,16 @@ import React from 'react'
 import '../Style/body.css'
 import Profile from './Profile'
 import ProfileContent from './ProfileContent'
-import MainContent from './Route'
+import MainContent from './MainContent'
 
-const content = () => {
+const Body = () => {
   return (
     <div className='body'>
         <Profile/>
         <ProfileContent/>
         <MainContent/>
-
     </div>
   )
 }
 
-export default content
+export default Body

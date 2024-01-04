@@ -3,7 +3,7 @@
 
 .app{
        
-    transition: .5s;
+    background-color: whitesmoke;
 }
 .app.dark{
     background-color: black;

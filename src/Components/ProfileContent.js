@@ -8,8 +8,6 @@ import Instagram from '../Images/instagram.png'
 import Github from '../Images/github.png'
 import Twitter from '../Images/twitter.png'
 import Website from '../Images/link.png'
-
-
 import BadgeOutlinedIcon from '@mui/icons-material/BadgeOutlined';
 import SchoolIcon from '@mui/icons-material/School';
 import Typical from 'react-typical'

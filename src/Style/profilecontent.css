@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 .main-content{
-    position: relative;
-    top: 90px;
-    left: -150px;
+    margin: 100px 0px;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+    
 }
 .name{
     font-size: 2rem;
@@ -21,7 +19,7 @@
 }
 .link-heading{
     font-size: .8rem;
-    color: rgba(243, 9, 9, 0.795);
+    color: rgba(255, 0, 0, 0.87);
     line-height: 2rem;
 }
 
