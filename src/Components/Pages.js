@@ -12,17 +12,17 @@ const Pages = () => {
     <div>
         <BrowserRouter>
             <ul className='nav'>
-              <li><Link to='react-projects' className='link'>Projects</Link></li>
-              <li><Link to='React-Projects/skills' className='link'>Skills</Link></li>
-              <li><Link to='React-Projects/career' className='link'>Career</Link></li>
-              <li><Link to='React-Projects/contact' className='link'>Contact</Link></li>
+              <li><Link to='/' className='link'>Projects</Link></li>
+              <li><Link to='/skills' className='link'>Skills</Link></li>
+              <li><Link to='/career' className='link'>Career</Link></li>
+              <li><Link to='/contact' className='link'>Contact</Link></li>
             </ul>
         
             <Routes>
-                <Route path ="React-Projects/" element ={<Project/>}/>
-                <Route path ="React-Projects/skills" element ={<Skills/>}/>
-                <Route path ="React-Projects/career" element ={<Career/>}/>
-                <Route path ="React-Projects/contact" element ={<Contact/>}/>
+                <Route path ="/" element ={<Project/>}/>
+                <Route path ="/skills" element ={<Skills/>}/>
+                <Route path ="/career" element ={<Career/>}/>
+                <Route path ="/contact" element ={<Contact/>}/>
             </Routes>
         </BrowserRouter>
     </div>

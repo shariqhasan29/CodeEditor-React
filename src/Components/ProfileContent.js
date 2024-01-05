@@ -25,11 +25,11 @@ const profilecontent = () => {
           <Typical
               loop={Infinity}
               steps={[
-                "Welcome to my world of Web Development!", 1500,
-                "I am passionate junior React Developer", 1500,
-                "My projects & sample works below", 1500,
-                "Leave your comments! Much Appreciated", 1500,
-                "Thanks in Advance", 1500,
+                "Welcome to my world of Web Development!", 2000,
+                "I am passionate junior React Developer", 2000,
+                "My projects & sample works below", 2000,
+                "Leave your comments! Much Appreciated", 2000,
+                "Thanks in Advance", 2000,
               ]}
           />          
         </p>
@@ -37,7 +37,7 @@ const profilecontent = () => {
         <p className='link-heading'>Find me on below</p>
         <div className='media-links'>
           
-          <a href="shariqhasan29@yahoo.com"><img src={Email} alt="" className='icons' /></a>
+          <a href="mailto:shariqhasan29@yahoo.com"><img src={Email} alt="" className='icons' /></a>
           <a href="https://www.linkedin.com/in/shariq-hasan-a-a92826213/"><img src={LinkedIn} alt="" className='icons' /></a>
           <a href="https://wa.me/qr/2ZUATSZUPISLD1"><img src={Whatsapp} alt="" className='icons' /></a>
           <a href="https://www.facebook.com/profile.php?id=61554491686357"><img src={Facebook} alt="" className='icons'/></a>
