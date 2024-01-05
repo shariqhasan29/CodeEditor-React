@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: -50px;
+    
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.527);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.link.active, .link:hover{
+    
+    color: rgb(4, 56, 228);
+    border-bottom: 5px solid darkorange;
+    display: inline-block;
+   
+}

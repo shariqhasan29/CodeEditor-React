@@ -14,7 +14,7 @@ function App() {
     <div className= {`app ${theme}`}>
       
       <NavBar theme={theme} setTheme ={setTheme}/>
-      <Body/>
+      <Body theme={theme} setTheme ={setTheme}/>
       
       
 

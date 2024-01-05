@@ -8,9 +8,16 @@
     padding: 10px 5%;
     background-color: white;    
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.082);
-   
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;  
     
     
+}
+
+.navbar.dark{
+    background-color: black; 
 }
 .logo{
     width: 250px;

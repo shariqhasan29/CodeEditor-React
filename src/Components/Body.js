@@ -2,14 +2,19 @@ import React from 'react'
 import '../Style/body.css'
 import Profile from './Profile'
 import ProfileContent from './ProfileContent'
-import MainContent from './MainContent'
+import Pages from './Pages'
 
-const Body = () => {
+
+const Body = ({theme, setTheme}) => {
+
+
   return (
-    <div className='body'>
-        <Profile/>
-        <ProfileContent/>
-        <MainContent/>
+    <div className={`body ${theme}`}>
+        <Profile theme={theme} setTheme ={setTheme}/>
+        <ProfileContent theme={theme} setTheme ={setTheme}/>        
+        <Pages theme={theme} setTheme ={setTheme}/>
+        
+        
     </div>
   )
 }

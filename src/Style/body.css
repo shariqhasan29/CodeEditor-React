@@ -1,6 +1,11 @@
 .body{
-    margin: 20px 80px;
+    margin: 0px 80px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.116);    
     background-color: white;
     
+}
+
+.body.dark{
+    background-color: black;
+    margin: 0;
 }
