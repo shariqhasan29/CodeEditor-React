@@ -2,23 +2,25 @@
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    margin-top: -50px;
+    margin-top: -100px;
     
     padding: 15px;
-    border-bottom: 1px solid rgba(15, 1, 65, 0.685);
+    box-shadow: 0px 2px 3px;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.281);
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
 }
 .link{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: 400;
 }
-.link.active, .link:hover{
+/* .link.active, .link:hover{
     
     color: rgb(4, 56, 228);
     border-bottom: 5px solid darkorange;
     display: inline-block;
    
-}
+} */
